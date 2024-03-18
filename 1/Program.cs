@@ -21,6 +21,10 @@ namespace _1
             student.name = Console.ReadLine();
             student.kurse = int.Parse(Console.ReadLine());
             student.sex = bool.Parse(Console.ReadLine());
+
+            Console.WriteLine(student.name);
+            Console.WriteLine(student.kurse);
+            Console.WriteLine(student.sex);
         }
     }
 }
