@@ -11,12 +11,16 @@ namespace _1
         public string name;
         public int kurse;
         public bool sex;
+
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-
+            student student = new student();
+            student.name = Console.ReadLine();
+            student.kurse = int.Parse(Console.ReadLine());
+            student.sex = bool.Parse(Console.ReadLine());
         }
     }
 }
